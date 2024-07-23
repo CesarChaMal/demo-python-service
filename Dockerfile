@@ -18,5 +18,5 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Run the application when the container launches.
-# This command runs the Python application that is expected to be named app.py.
-CMD ["python", "app.py"]
+# This command runs the Python application that is expected to be named python_service.py.py.
+CMD ["python", "python_service.py.py"]
